@@ -4,7 +4,7 @@
   The code is written to follow a black line on a white background.
   works best with L298D Motor Driver
 
-  Author - Suvin Nimnaka
+  Author - suvin nimnaka
   www.suvink9.wordpress.com
 */
 
