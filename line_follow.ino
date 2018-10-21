@@ -66,21 +66,21 @@ void analogreadings()
     s1 == 1;
     }
   else {
-    s1 = 0;
+    s1 == 0;
     }
   
   if (s2_val<640){
     s2 == 1;
     }
   else {
-    s2 = 0;
+    s2 == 0;
     }
   
   if (s3_val<640){
     s3 == 1;
     }
   else {
-    s3 = 0;
+    s3 == 0;
     } 
  }
 
