@@ -82,7 +82,7 @@ void analogreadings()
   else {
     s3 == 0;
     } 
- }
+}
 
 void linefollow(){
 
@@ -112,7 +112,7 @@ void linefollow(){
     }
    
   
-  }
+}
 
 void movefwd(){
   digitalWrite(rme, HIGH);
@@ -124,7 +124,7 @@ void movefwd(){
   digitalWrite(lmf,HIGH);
   digitalWrite(lmr,LOW);
   
-  }
+}
 
 
 void turnleft(){
@@ -134,7 +134,7 @@ void turnleft(){
   digitalWrite(rmf,HIGH);
   digitalWrite(rmr,LOW);
 
-  }
+}
 
 
 void turnright(){
@@ -143,7 +143,7 @@ void turnright(){
 
   digitalWrite(lmf,HIGH);
   digitalWrite(lmr,LOW);
-  }
+}
 
 void reverse(){
   digitalWrite(rme, HIGH);
@@ -155,16 +155,16 @@ void reverse(){
   digitalWrite(lmr,HIGH);
   digitalWrite(lmf,LOW);
   
-  }
+}
 
 void movestop(){
   digitalWrite(rme, LOW);
   digitalWrite(lme, LOW);
-  }
+}
 
 void dispara(){
   Serial.prinln ("Sensor 1 value"+);
   Serial.prinln ("Sensor 1 value"+);
   Serial.prinln ("Sensor 1 value"+);
   
-  }
+}
